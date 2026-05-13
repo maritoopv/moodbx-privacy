@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodBX - Politica de Privacidad</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; background: #000; color: #fff; line-height: 1.6; }
+        h1 { font-size: 28px; margin-bottom: 4px; }
+        h2 { font-size: 20px; margin-top: 32px; color: #FF9500; }
+        p, li { font-size: 15px; color: #ccc; }
+        .date { font-size: 13px; color: #8E8E93; }
+        a { color: #FF9500; }
+    </style>
+</head>
+<body>
+    <h1>Politica de Privacidad</h1>
+    <p class="date">Ultima actualizacion: 7 de abril de 2026</p>
+
+    <p>MoodBX es una aplicacion de entretenimiento personal que permite catalogar peliculas, series y juegos, conectar servidores multimedia y compartir listas con amigos. Tu privacidad es importante para nosotros.</p>
+
+    <h2>1. Datos que recopilamos</h2>
+    <p><strong>Cuenta de usuario:</strong> Al registrarte recopilamos tu direccion de correo electronico, nombre de usuario y nombre para mostrar. Estos datos se almacenan en Firebase Authentication y Firestore.</p>
+    <p><strong>Contenido del usuario:</strong> Las peliculas, series y juegos que catalogas, tus valoraciones, listas personales y progreso de visualizacion se almacenan localmente en tu dispositivo (SwiftData) y se sincronizan via iCloud entre tus dispositivos Apple.</p>
+    <p><strong>Datos sociales:</strong> Si usas funciones sociales (amigos, listas compartidas), almacenamos tu lista de amigos, listas compartidas y actividad relacionada en Firebase Firestore.</p>
+    <p><strong>Servidores multimedia:</strong> Si conectas un servidor (SMB, Jellyfin, Plex), los datos de conexion (IP, puerto, credenciales ofuscadas) se almacenan localmente y en Firebase para sincronizar entre dispositivos.</p>
+
+    <h2>2. Datos que NO recopilamos</h2>
+    <ul>
+        <li>No recopilamos datos de ubicacion</li>
+        <li>No recopilamos datos de contactos ni agenda</li>
+        <li>No recopilamos datos de uso con fines publicitarios</li>
+        <li>No vendemos ni compartimos datos personales con terceros</li>
+        <li>No mostramos publicidad</li>
+    </ul>
+
+    <h2>3. Servicios de terceros</h2>
+    <p>MoodBX utiliza los siguientes servicios:</p>
+    <ul>
+        <li><strong>Firebase (Google):</strong> Autenticacion, base de datos en la nube y almacenamiento de imagenes de perfil. <a href="https://firebase.google.com/support/privacy">Politica de privacidad de Firebase</a></li>
+        <li><strong>Apple iCloud:</strong> Sincronizacion de datos entre dispositivos Apple del usuario.</li>
+        <li><strong>TMDb, IGDB, OMDb:</strong> APIs publicas para obtener informacion de peliculas, series y juegos (metadatos, imagenes). No se envian datos personales a estos servicios.</li>
+        <li><strong>Trakt.tv (opcional):</strong> Si el usuario conecta su cuenta, se sincronizan historiales de visualizacion.</li>
+    </ul>
+
+    <h2>4. Compras dentro de la app</h2>
+    <p>MoodBX ofrece una compra unica (Plan Legendario) gestionada por Apple a traves de StoreKit. No almacenamos ni tenemos acceso a datos de pago o tarjetas de credito.</p>
+
+    <h2>5. Seguridad</h2>
+    <p>Las credenciales de servidores multimedia se almacenan ofuscadas (XOR + base64). Las comunicaciones con Firebase y APIs externas se realizan sobre HTTPS. Los datos locales estan protegidos por la seguridad del dispositivo Apple.</p>
+
+    <h2>6. Retencion de datos</h2>
+    <p>Tus datos se conservan mientras mantengas tu cuenta activa. Puedes eliminar tu cuenta y todos los datos asociados desde Ajustes > Eliminar cuenta dentro de la app.</p>
+
+    <h2>7. Derechos del usuario</h2>
+    <p>Puedes solicitar la eliminacion de tus datos en cualquier momento eliminando tu cuenta desde la app. Tambien puedes contactarnos para cualquier consulta sobre tus datos.</p>
+
+    <h2>8. Menores</h2>
+    <p>MoodBX no esta dirigida a menores de 13 anos. No recopilamos intencionadamente informacion de menores de esa edad.</p>
+
+    <h2>9. Cambios</h2>
+    <p>Podemos actualizar esta politica periodicamente. Publicaremos los cambios en esta pagina con la fecha de actualizacion.</p>
+
+    <h2>10. Contacto</h2>
+    <p>Para cualquier consulta sobre privacidad, contacta con nosotros en: <a href="mailto:moodbxapp@gmail.com">moodbxapp@gmail.com</a></p>
+</body>
+</html>
